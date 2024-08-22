@@ -1,0 +1,59 @@
+{
+	"appointmentForm": {
+		"detailsLabel": "Detale",
+		"allDayLabel": "Cały dzień",
+		"titleLabel": "Tytuł",
+		"commitCommand": "Zapisz",
+		"moreInformationLabel": "Więcej informacji",
+		"repeatLabel": "Cykliczne",
+		"notesLabel": "Notatki",
+		"daily": "Codziennie",
+		"weekly": "Co tydzień",
+		"monthly": "Co miesiąc",
+		"yearly": "Co rok",
+		"repeatEveryLabel": "Powtarzaj co",
+		"daysLabel": "dzień/dni.",
+		"endRepeatLabel": "Zakończ powtarzanie:",
+		"never": "Nigdy.",
+		"onLabel": "Po",
+		"afterLabel": "Po",
+		"occurrencesLabel": "wystąpieniach.",
+		"weeksOnLabel": "week(s) on:",
+		"monthsLabel": "miesiąc/miesięcy",
+		"ofEveryMonthLabel": "każdego miesiąca",
+		"theLabel": "Ten",
+		"firstLabel": "Pierwszy",
+		"secondLabel": "Drugi",
+		"thirdLabel": "Trzeci",
+		"fourthLabel": "Czwarty",
+		"lastLabel": "Ostatni",
+		"yearsLabel": "Roku",
+		"ofLabel": "w",
+		"everyLabel": "Każdy"
+	},
+	"confirmationButton": {
+		"discardButton": "Anuluj",
+		"deleteButton": "Usuń",
+		"cancelButton": "Wróć",
+		"confirmDeleteMessage": "Jesteś pewien, że chcesz usunąć to wydarzenie?",
+		"confirmCancelMessage": "Anulować niezapisane zmiany?"
+	},
+	"editRecurrenceMenu": {
+		"current": "To wydarzenie",
+		"currentAndFollowing": "To i następne wydarzenia",
+		"all": "Wszystkie wydarzenia",
+		"menuEditingTitle": "Edytuj powtarzające się wydarzenie",
+		"menuDeletingTitle": "Usuń powtarzające się wydarzenie",
+		"cancelButton": "Zamknij",
+		"commitButton": "OK"
+	},
+	"todayButton": {
+		"today": "Dzisiaj"
+	},
+	"allDayPanel": {
+		"allDay": "Cały dzień"
+	},
+	"dayView": "Dzień",
+	"weekView": "Tydzień",
+	"monthView": "Miesiąc"
+}
