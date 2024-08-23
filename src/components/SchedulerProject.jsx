@@ -46,7 +46,7 @@ const SchedulerProject = () => {
 					setData(appointments);
 				}
 			} catch {
-				setErrorMessage('Błąd przy pobieraniu danych!');
+				setAlert('Błąd przy pobieraniu danych!');
 				console.error('Błąd przy pobieraniu danych!');
 			}
 		};
@@ -62,7 +62,7 @@ const SchedulerProject = () => {
 				await addAppointment(added);
 				setData((prevData) => [...prevData, { ...added }]);
 			} catch {
-				setErrorMessage('Błąd przy dodawniu danych!');
+				setAlert('Błąd przy dodawniu danych!');
 				console.error('Błąd przy dodawniu danych!');
 			}
 		}
@@ -81,7 +81,7 @@ const SchedulerProject = () => {
 					)
 				);
 			} catch {
-				setErrorMessage('Błąd przy edycji danych!');
+				setAlert('Błąd przy edycji danych!');
 				console.error('Błąd przy edycji danych!');
 			}
 		}
@@ -93,7 +93,7 @@ const SchedulerProject = () => {
 					prevData.filter((appointment) => appointment.id !== deleted)
 				);
 			} catch {
-				setErrorMessage('Błąd przy usuwaniu danych!');
+				setAlert('Błąd przy usuwaniu danych!');
 				console.error('Błąd przy usuwaniu danych!');
 			}
 		}
