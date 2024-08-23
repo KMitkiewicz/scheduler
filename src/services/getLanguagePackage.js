@@ -1,4 +1,4 @@
-import plLanguage from '../../language/polishLanguage.json';
+import plLanguage from '../language/polishLanguage.json';
 
 const getLanguagePackage = (language) => {
 	switch (language) {

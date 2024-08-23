@@ -1,4 +1,5 @@
 import SchedulerProject from './components/SchedulerProject';
+import Alert from './components/Alert'
 
 function App() {
 	return (

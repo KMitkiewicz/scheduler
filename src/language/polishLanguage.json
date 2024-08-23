@@ -32,7 +32,7 @@
 		"everyLabel": "Każdy"
 	},
 	"confirmationButton": {
-		"discardButton": "Anuluj",
+		"discardButton": "Zamknij",
 		"deleteButton": "Usuń",
 		"cancelButton": "Wróć",
 		"confirmDeleteMessage": "Jesteś pewien, że chcesz usunąć to wydarzenie?",
